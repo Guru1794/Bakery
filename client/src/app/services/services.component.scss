@@ -1,0 +1,41 @@
+.services {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+  h2 {
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .service {
+    text-align: center;
+    margin-bottom: 40px;
+
+    img {
+
+      width: 10rem;
+      border-radius: 50%; /* Optional: Add a border radius to the images */
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #666;
+      font-size: 16px;
+    }
+  }
+}
